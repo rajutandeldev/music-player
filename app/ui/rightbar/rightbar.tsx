@@ -9,7 +9,6 @@ export default function Rightbar() {
             border border-white/10
             shadow-2xl
             p-2
-            m-2
             flex-1
             '>
       rightbar
