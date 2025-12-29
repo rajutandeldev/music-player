@@ -3,6 +3,7 @@
 :root {
   --background: linear-gradient(120deg, #1e1e1e, #3a2f2f);;
   --foreground: #FFF;
+  --cardBackground: linear-gradient(0deg, rgba(99, 67, 78, 1) 52%,rgba(73, 55, 66, 1) 100%,rgba(255, 254, 254, 1) 60%)
 }
 
 /* @theme inline {

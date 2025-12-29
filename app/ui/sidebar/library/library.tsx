@@ -36,25 +36,25 @@ export default function Library() {
                 </div>
                 <div className='flex flex-col gap-4'>
                     <PlaylistComponent
-                        img='/profile_1.png'
+                        img='/brett-jordan-x3wDxZJx9qs-unsplash.jpg'
                         title='Liked Songs'
                         subtitle='Playlist'
                         songsCount={49}
                     />
                     <PlaylistComponent
-                        img='/profile_2.png'
+                        img='/klim-musalimov-YkvjGqSeUGQ-unsplash.jpg'
                         title='Top Songs - Global'
                         subtitle='Playlist'
                         songsCount={49}
                     />
                     <PlaylistComponent
-                        img='/profile_3.png'
+                        img='/seyi-ariyo-6YgYRcyQK_s-unsplash.jpg'
                         title='Yah! The Fourth Album'
                         subtitle='Album'
                         songsCount={23}
                     />
                     <PlaylistComponent
-                        img='/profile_4.png'
+                        img='/klim-musalimov-YkvjGqSeUGQ-unsplash.jpg'
                         title='The First Playlist'
                         subtitle='Playlist'
                         songsCount={44}
