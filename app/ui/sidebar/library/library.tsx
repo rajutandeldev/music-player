@@ -27,14 +27,14 @@ export default function Library() {
                 </div>
                 <MdSearch size={20} />
             </div>
-            <div className='flex flex-col justify-between gap-5'>
+            <div className='flex flex-col justify-between gap-5 '>
 
                 <div className='flex items-center gap-2 w-full'>
                     <Chip title='Playlist' />
                     <Chip title='Albums' />
                     <Chip title='Podcasts' />
                 </div>
-                <div className='flex flex-col gap-4'>
+                <div className='flex flex-col gap-4 h-[400px]'>
                     <PlaylistComponent
                         img='/brett-jordan-x3wDxZJx9qs-unsplash.jpg'
                         title='Liked Songs'

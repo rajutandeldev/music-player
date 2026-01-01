@@ -2,6 +2,7 @@ import Image from "next/image";
 import Navbar from "./ui/maincontent/navbar/Navbar";
 import { MdSearch } from "react-icons/md";
 import Tabs from "./ui/component/Tab";
+import VideoCard from "./ui/component/Video";
 
 export default function Home() {
   return (
@@ -23,8 +24,8 @@ export default function Home() {
             <h2 className="font-bold text-1xl text-white/70">Playlist of the day</h2>
             <Image src="/portrait-man-working-as-musician.jpg"  className="rounded-2xl border-2 border-white/50" alt="" width='100' height={100}/>
           </div>
-          <div className=" flex flex-6 w-full overflow-hidden relative">
-            <iframe  src="/video.mp4" className="w-2/4 h-full rounded-2xl border-2 border-white/50" title="video"/>
+          <div className=" flex flex-6 w-full">
+            <VideoCard/>
           </div>
         </div>
         <Tabs/>

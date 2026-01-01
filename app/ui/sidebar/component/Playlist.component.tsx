@@ -2,7 +2,6 @@ import Image from 'next/image'
 import React from 'react'
 
 export default function PlaylistComponent({ img, title, subtitle, songsCount }: { img: string, title: string, subtitle: string, songsCount: number }) {
-    console.log(img)
     return (
         <div className='flex items-center gap-3 '>
             <Image src={img} alt="" width={50} height={50} className='w-9 h-12 object-cover' />
